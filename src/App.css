@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* custom styles */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  padding: 0 32px;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.384);
+  padding: 32px;
+}
+.tagdiv {
+  padding: 0 0.8px;
+
+}
+.tags {
+  background-color: tomato;
+  border: none;
+  margin-right: 20px;
+  padding: 6px 20px;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+.active_class {
+  background-color: blue;
+  color: white;
+}
+flex30 {
+  flex: 0 1 30%;
+  width: 30%;
+}
+.card {
+  background-color: rgba(137, 43, 226, 0.185);
+  width: 250px;
+  margin: 30px;
+  padding: 10px 24px;
+  border-radius: 20px;
+  
+}
+.image {
+  border-radius: 50%;
+  border: 1px solid tomato;
+}
+.descrip {
+  font-size: 14px;
+}
+.know {
+  background-color: rgba(0, 0, 255, 0.212);
+  border: none;
+  padding:  10px 32px;
+}
